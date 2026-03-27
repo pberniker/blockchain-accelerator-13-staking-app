@@ -45,40 +45,13 @@ $ forge test -vvvv
 $ forge coverage
 ```
 
-### Format
+### Install packages
 
 ```shell
-$ forge fmt
+$ forge instal {name}
 ```
-
-### Gas Snapshots
 
 ```shell
-$ forge snapshot
+$ forge install openzeppelin/openzeppelin-contracts
 ```
 
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
