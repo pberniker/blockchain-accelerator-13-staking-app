@@ -9,7 +9,7 @@ contract StakingApp is Ownable {
     address public stakingTokenAdress;
 
     // Construct
-    constructor(address stakingTokenAdress_, address ownerAdress_) Ownable(ownerAdress_) {
+    constructor(address ownerAdress_, address stakingTokenAdress_) Ownable(ownerAdress_) {
         stakingTokenAdress = stakingTokenAdress_;
     }
 }
